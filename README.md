@@ -19,13 +19,13 @@ Some good coding practices advocated in this book:
 
 * Dependency Inversion Principle: Depend upon abstraction. Don't depend upon concrete classes.
     * Guidelines to follow this priciples:
-        (1) No variable should hold a reference to a concrete class. (Use a Factory instead)
-        (2) No class should derive from a concrete class. (Derive from an interface or abstract class)
-        (3) No method should override an implemented method of any of its base classes.
+         * No variable should hold a reference to a concrete class. (Use a Factory instead)
+         * No class should derive from a concrete class. (Derive from an interface or abstract class)
+         * No method should override an implemented method of any of its base classes.
 
 * Singletons are meant to be used in small quantities.
 
 * Law of Demeter / Priciple of Least Knowledge:
-     (1) Each unit should have limited knowledge about other units.
-     (2) Each unit should only talk to its friends. Don't talk to strangers.
-     (3) Only talk to your immediate friends.
+     * Each unit should have limited knowledge about other units.
+     * Each unit should only talk to its friends. Don't talk to strangers.
+     * Only talk to your immediate friends.
