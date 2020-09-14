@@ -1,6 +1,6 @@
 Implementation of several software design patterns.
 
-Source Book: Head First Design Patterns
+Source Book: **Head First Design Patterns**
 
 Some good coding practices advocated in this book:
 
